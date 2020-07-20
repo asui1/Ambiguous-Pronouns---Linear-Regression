@@ -1,3 +1,14 @@
+For the project I used GAP coreference dataset and description of GAP dataset is at below.
+two names of file snippet and page refers to whether it has access to link of original text. Page is one with access.
+hw5.py and hw5_page are files generating numbers for sentences and save them as snippet.csv and page.csv.
+
+linearregression.py is for getting linear regression constants and they are already in CS372_HW5_code_20160632.py
+
+hw5_final and CS372_HW5_code_20160632.py generate prediction and save it as .tsv files.
+
+TO see grading you can run gap_scorer.py
+
+
 # GAP Coreference Dataset
 
 GAP is a gender-balanced dataset containing 8,908 coreference-labeled pairs of (ambiguous pronoun, antecedent name), sampled from Wikipedia and released by [Google AI Language](https://ai.google/research/teams/language/) for the evaluation of coreference resolution in practical applications.
